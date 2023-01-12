@@ -1,22 +1,18 @@
 userName: davitichanturia_SYAtlx
 accessKey: Ctms5oKSJxWFHx1zaFGp
-
-projectName: BrowserStack Samples 
-
 platforms:
-  - os: OS X
-    osVersion: Big Sur
+  - os: Windows
+    osVersion: 11
     browserName: Chrome
-    browserVersion: latest
+    browserVersion: 103.0
   - os: Windows
     osVersion: 10
-    browserName: Edge
-    browserVersion: latest
-
-browserstackLocal: true # <boolean> (Default false)
-
-source: python-browserstack:sample-sdk:v1.0
-
-debug: false # <boolean> # Set to true if you need screenshots for every selenium command ran
-networkLogs: false # <boolean> Set to true to enable HAR logs capturing
-consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
+    browserName: Firefox
+    browserVersion: 102.0
+browserstackLocal: true
+buildName: bstack-demo
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStack Sample
+debug: true
+networkLogs: true
+consoleLogs: info
