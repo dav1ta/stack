@@ -2,8 +2,6 @@ userName: davitichanturia_SYAtlx
 accessKey: Ctms5oKSJxWFHx1zaFGp
 
 projectName: BrowserStack Samples 
-buildName: browserstack build 
-buildIdentifier: '#${BUILD_NUMBER}' # Supports strings along with either/both ${expression}
 
 platforms:
   - os: OS X
